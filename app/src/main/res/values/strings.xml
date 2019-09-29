@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Taller</string>
+    <string name="title">Star Wars</string>
+    <string name="button_people">Personajes</string>
+    <string name="button_planet">Planetoides</string>
+    <string name="name_people">Nombre:</string>
+    <string name="height_people">Altura:</string>
+    <string name="mass_people">Peso:</string>
+    <string name="hair_people">Color de cabello:</string>
+    <string name="skin_people">Color de piel:</string>
+    <string name="eye_people">Color de ojos:</string>
+    <string name="birth_people">Nacimiento:</string>
+    <string name="gender_people">Genero:</string>
+    <string name="button_back">Anterior</string>
+    <string name="button_next">Siguiente</string>
+    <string name="name_planet">Nombre planeta:</string>
+    <string name="rotation_planet">Periodo de rotación:</string>
+    <string name="orbital_planet">Periodo de orbita:</string>
+    <string name="diameter_planet">Diametro:</string>
+    <string name="climate_planet">Clima:</string>
+    <string name="gravity_planet">Gravedad:</string>
+    <string name="terrain_planet">Terreno:</string>
+    <string name="surface_planet">Agua superficiales:</string>
+    <string name="population_planet">Poblacion:</string>
+</resources>

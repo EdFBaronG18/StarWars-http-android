@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PeopleActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/name_planet"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/name_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/rotation_planet"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/rotation_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/orbital_planet"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/orbital_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/diameter_planet"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/diameter_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/climate_planet"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/climate_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/gravity_planet"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/gravity_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/terrain_planet"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/terrain_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/surface_planet"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/surface_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:text="@string/population_planet"
+                android:textAlignment="textEnd"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#000000"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/population_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_back_planet1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_back" />
+
+        <Button
+            android:id="@+id/button_next_planet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/button_next" />
+    </LinearLayout>
+
+</LinearLayout>
